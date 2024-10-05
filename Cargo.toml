@@ -30,6 +30,8 @@ optional = true
 [dependencies.rustls]
 version = "^0.23"
 optional = true
+default-features = false
+featues = [ "logging", "std", "tls12" ]
 
 [dependencies.rustls-pemfile]
 version = "^2.1"
